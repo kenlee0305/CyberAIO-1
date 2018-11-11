@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB84E7C8-5DB2-4B68-84D3-1D7F3900E31B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CyberAIO</RootNamespace>
+    <AssemblyName>CyberAIO</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>CyberAIO.ico</ApplicationIcon>
+    <StartupObject>Class175</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutomaticUpdater">
+      <HintPath>..\..\CyberAIO\AutomaticUpdater.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\CyberAIO\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.Base">
+      <HintPath>..\..\CyberAIO\EO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebBrowser">
+      <HintPath>..\..\CyberAIO\EO.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebEngine">
+      <HintPath>..\..\CyberAIO\EO.WebEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\TheKickStation\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Jint">
+      <HintPath>..\..\TheKickStation\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\TheKickStation\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\TheKickStation\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class10.cs" />
+    <Compile Include="Class100.cs" />
+    <Compile Include="Class101.cs" />
+    <Compile Include="Class104.cs" />
+    <Compile Include="Class105.cs" />
+    <Compile Include="Class106.cs" />
+    <Compile Include="Class107.cs" />
+    <Compile Include="Class108.cs" />
+    <Compile Include="Class11.cs" />
+    <Compile Include="Class110.cs" />
+    <Compile Include="Class111.cs" />
+    <Compile Include="Class112.cs" />
+    <Compile Include="Class113.cs" />
+    <Compile Include="Class114.cs" />
+    <Compile Include="Class115.cs" />
+    <Compile Include="Class116.cs" />
+    <Compile Include="Class12.cs" />
+    <Compile Include="Class121.cs" />
+    <Compile Include="Class122.cs" />
+    <Compile Include="Class123.cs" />
+    <Compile Include="Class125.cs" />
+    <Compile Include="Class126.cs" />
+    <Compile Include="Class128.cs" />
+    <Compile Include="Class129.cs" />
+    <Compile Include="Class13.cs" />
+    <Compile Include="Class130.cs" />
+    <Compile Include="Class131.cs" />
+    <Compile Include="Class132.cs" />
+    <Compile Include="Class133.cs" />
+    <Compile Include="Class134.cs" />
+    <Compile Include="Class135.cs" />
+    <Compile Include="Class139.cs" />
+    <Compile Include="Class140.cs" />
+    <Compile Include="Class141.cs" />
+    <Compile Include="Class143.cs" />
+    <Compile Include="Class144.cs" />
+    <Compile Include="Class145.cs" />
+    <Compile Include="Class146.cs" />
+    <Compile Include="Class147.cs" />
+    <Compile Include="Class148.cs" />
+    <Compile Include="Class149.cs" />
+    <Compile Include="Class15.cs" />
+    <Compile Include="Class150.cs" />
+    <Compile Include="Class151.cs" />
+    <Compile Include="Class152.cs" />
+    <Compile Include="Class153.cs" />
+    <Compile Include="Class154.cs" />
+    <Compile Include="Class155.cs" />
+    <Compile Include="Class156.cs" />
+    <Compile Include="Class157.cs" />
+    <Compile Include="Class158.cs" />
+    <Compile Include="Class159.cs" />
+    <Compile Include="Class16.cs" />
+    <Compile Include="Class160.cs" />
+    <Compile Include="Class161.cs" />
+    <Compile Include="Class162.cs" />
+    <Compile Include="Class163.cs" />
+    <Compile Include="Class164.cs" />
+    <Compile Include="Class165.cs" />
+    <Compile Include="Class166.cs" />
+    <Compile Include="Class167.cs" />
+    <Compile Include="Class168.cs" />
+    <Compile Include="Class169.cs" />
+    <Compile Include="Class17.cs" />
+    <Compile Include="Class170.cs" />
+    <Compile Include="Class171.cs" />
+    <Compile Include="Class172.cs" />
+    <Compile Include="Class173.cs" />
+    <Compile Include="Class174.cs" />
+    <Compile Include="Class175.cs" />
+    <Compile Include="Class177.cs" />
+    <Compile Include="Class18.cs" />
+    <Compile Include="Class180.cs" />
+    <Compile Include="Class181.cs" />
+    <Compile Include="Class183.cs" />
+    <Compile Include="Class184.cs" />
+    <Compile Include="Class185.cs" />
+    <Compile Include="Class188.cs" />
+    <Compile Include="Class189.cs" />
+    <Compile Include="Class19.cs" />
+    <Compile Include="Class20.cs" />
+    <Compile Include="Class23.cs" />
+    <Compile Include="Class26.cs" />
+    <Compile Include="Class27.cs" />
+    <Compile Include="Class28.cs" />
+    <Compile Include="Class29.cs" />
+    <Compile Include="Class30.cs" />
+    <Compile Include="Class36.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="Class45.cs" />
+    <Compile Include="Class46.cs" />
+    <Compile Include="Class47.cs" />
+    <Compile Include="Class48.cs" />
+    <Compile Include="Class49.cs" />
+    <Compile Include="Class51.cs" />
+    <Compile Include="Class52.cs" />
+    <Compile Include="Class53.cs" />
+    <Compile Include="Class54.cs" />
+    <Compile Include="Class55.cs" />
+    <Compile Include="Class56.cs" />
+    <Compile Include="Class57.cs" />
+    <Compile Include="Class58.cs" />
+    <Compile Include="Class59.cs" />
+    <Compile Include="Class61.cs" />
+    <Compile Include="Class62.cs" />
+    <Compile Include="Class63.cs" />
+    <Compile Include="Class64.cs" />
+    <Compile Include="Class65.cs" />
+    <Compile Include="Class66.cs" />
+    <Compile Include="Class67.cs" />
+    <Compile Include="Class68.cs" />
+    <Compile Include="Class70.cs" />
+    <Compile Include="Class71.cs" />
+    <Compile Include="Class72.cs" />
+    <Compile Include="Class73.cs" />
+    <Compile Include="Class79.cs" />
+    <Compile Include="Class80.cs" />
+    <Compile Include="Class82.cs" />
+    <Compile Include="Class83.cs" />
+    <Compile Include="Class84.cs" />
+    <Compile Include="Class86.cs" />
+    <Compile Include="Class87.cs" />
+    <Compile Include="Class9.cs" />
+    <Compile Include="Class92.cs" />
+    <Compile Include="Class93.cs" />
+    <Compile Include="Class98.cs" />
+    <Compile Include="Class99.cs" />
+    <Compile Include="Delegate0.cs" />
+    <Compile Include="Enum0.cs" />
+    <Compile Include="Enum1.cs" />
+    <Compile Include="Exception0.cs" />
+    <Compile Include="Exception1.cs" />
+    <Compile Include="Exception2.cs" />
+    <Compile Include="GClass0.cs" />
+    <Compile Include="GClass1.cs" />
+    <Compile Include="GClass2.cs" />
+    <Compile Include="GClass3.cs" />
+    <Compile Include="GForm0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GForm0.Designer.cs">
+      <DependentUpon>GForm0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GForm1.Designer.cs">
+      <DependentUpon>GForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GForm2.Designer.cs">
+      <DependentUpon>GForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GForm3.Designer.cs">
+      <DependentUpon>GForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GForm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GForm4.Designer.cs">
+      <DependentUpon>GForm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GForm5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GForm5.Designer.cs">
+      <DependentUpon>GForm5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GForm6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GForm6.Designer.cs">
+      <DependentUpon>GForm6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GForm7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GForm7.Designer.cs">
+      <DependentUpon>GForm7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface0.cs" />
+    <Compile Include="Interface1.cs" />
+    <Compile Include="Interface2.cs" />
+    <Compile Include="Interface3.cs" />
+    <Compile Include="Interface4.cs" />
+    <Compile Include="Interface5.cs" />
+    <Compile Include="Interface6.cs" />
+    <Compile Include="Interface7.cs" />
+    <Compile Include="Interface8.cs" />
+    <Compile Include="Interface9.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Stream0.cs" />
+    <Compile Include="Struct2.cs" />
+    <Compile Include="Struct42.cs" />
+    <Compile Include="Struct43.cs" />
+    <Compile Include="Struct45.cs" />
+    <Compile Include="Struct57.cs" />
+    <Compile Include="Websites\Shopify\Shopify.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="12e5a041d2154a349fa034203dddf111" />
+    <EmbeddedResource Include="GForm0.resx">
+      <DependentUpon>GForm0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GForm1.resx">
+      <DependentUpon>GForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GForm2.resx">
+      <DependentUpon>GForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GForm3.resx">
+      <DependentUpon>GForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GForm4.resx">
+      <DependentUpon>GForm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GForm5.resx">
+      <DependentUpon>GForm5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GForm6.resx">
+      <DependentUpon>GForm6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GForm7.resx">
+      <DependentUpon>GForm7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="​" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
